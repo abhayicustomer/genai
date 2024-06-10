@@ -2,7 +2,7 @@ Chat Agent:
   1. NLP2SQL
      - To chat with the structured data
      - Technology used
-       - Python, Django, Openai
+       - Python(3.12.2), Django, Openai
      - API(POST)
        http://54.237.107.120:8001/demoapp/structured/
        raw JSON body: {
@@ -15,7 +15,7 @@ Chat Agent:
   2. Talkable-Unstructured
      - To chat with the unstructured data of Talkable(website, blogs, etc.)
      - Technology used
-       - Python, Django, Openai
+       - Python(3.12.2), Django, Openai
      - API(POST)
        http://54.237.107.120:8001/demoapp/unstructured/
        raw JSON body: {
