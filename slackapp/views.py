@@ -35,7 +35,7 @@ def products(request):
     try:
         if request.method == 'POST':
             print(request.body)
-            logger.debug("API REQUEST --> %s", request)
+            logger.debug("API REQUESTS --> %s", request)
             query = json.loads(request.body.decode('utf-8')).get('query', '')
             user_id = json.loads(request.body.decode('utf-8')).get('user_id')
             session_id = json.loads(request.body.decode('utf-8')).get('session_id')
