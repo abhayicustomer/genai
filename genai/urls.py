@@ -20,11 +20,12 @@ from django.conf.urls import include
 
 urlpatterns = [
     re_path(r"^admin/", admin.site.urls),
-    re_path(r'^nlp2sqlapp/', include('nlp2sqlapp.urls')),
-    re_path(r'^nlp2sqlappzilla/', include('nlp2sqlappzilla.urls')),
+    # re_path(r'^nlp2sqlapp/', include('nlp2sqlapp.urls')),
+    # re_path(r'^nlp2sqlappzilla/', include('nlp2sqlappzilla.urls')),
     re_path(r'^unstructuredapp/', include('unstructuredapp.urls')),
     re_path(r'^hybridapp/', include('hybridapp.urls')),
     re_path(r'^insightapp/', include('insightapp.urls')),
     re_path('uploadsapp/', include('uploadsapp.urls')),
     re_path('demoapp/', include('demoapp.urls')),
+    re_path('slackapp/', include('slackapp.urls')),
 ]
