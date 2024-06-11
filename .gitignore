@@ -9,8 +9,6 @@ __pycache__/
 .idea8
 .ipynb_checkpoints
 
-proposals_faq_app/proposals_data-old/
-provider_app/Data/
 media/
 
 # Distribution / packaging

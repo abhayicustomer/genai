@@ -6,6 +6,7 @@ import os
 import shutil
 import index
 
+# new
 def upload_pdf(request):
     try:
         if request.method == 'POST':
